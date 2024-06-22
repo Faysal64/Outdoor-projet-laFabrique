@@ -1,3 +1,5 @@
+/*Section1-->*/
+
 .logo {
 
     margin-top: 10px;
@@ -6,6 +8,9 @@
 
 .backgroundImg {
     background-image: url(https://websitedemos.net/outdoor-adventure-02/wp-content/uploads/sites/351/2018/11/hero-bg.jpg);
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 1;
+    height: 100%;
 }
 
 
@@ -57,4 +62,21 @@ h1,
     align-items: center;
     margin-top: 150px;
 
+}
+
+/*Section2*/
+
+.FlexCentre2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.borderBottom {
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid #fb2056;
+    width: 20%;
 }
