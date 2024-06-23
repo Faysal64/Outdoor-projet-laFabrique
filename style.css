@@ -80,3 +80,15 @@ h1,
     border-bottom: 1px solid #fb2056;
     width: 20%;
 }
+
+.FlexRow {
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+}
+
+.ImgSec2 {
+    width: 100%;
+    border-radius: 4px 4px 4px 4px;
+    box-shadow: 10px 10px 0 1px rgb(0 0 0 / 7%);
+}
