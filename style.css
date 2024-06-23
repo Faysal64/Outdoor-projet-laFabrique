@@ -70,15 +70,23 @@ h1,
     display: flex;
     flex-direction: column;
     align-items: center;
-
-
 }
+
+.FlexCentre3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 88%;
+}
+
 
 .borderBottom {
     display: flex;
     justify-content: center;
-    border-bottom: 1px solid #fb2056;
-    width: 20%;
+    border-bottom: 3px solid #fb2056;
+    width: 70px;
+    margin-bottom: 30px;
+    margin-left: 46%;
 }
 
 .FlexRow {
@@ -87,8 +95,24 @@ h1,
     gap: 60px;
 }
 
-.ImgSec2 {
+.TailleImg {
+
     width: 100%;
+}
+
+
+
+.ImgSec2 {
+
     border-radius: 4px 4px 4px 4px;
     box-shadow: 10px 10px 0 1px rgb(0 0 0 / 7%);
+}
+
+
+.BoutonAction2 {
+    border-color: #fb2056;
+    background-color: #fb2056;
+    border-radius: 30px;
+    color: white;
+    padding: 20px 40px 20px 40px;
 }
