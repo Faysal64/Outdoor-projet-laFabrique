@@ -559,3 +559,15 @@ h1,
     justify-content: space-between;
     padding: 100px 0px 100px 0px;
 }
+
+
+/*Footer*/
+
+.backgroundFooter {
+    background-color: #191919;
+}
+
+.FlexFooter {
+    color: white;
+    display: flex;
+}
