@@ -563,32 +563,34 @@ h1,
 /*Section4*/
 
 .TailleConteneur {
-    width: 33.33%;
+    width: 40%;
 }
 
 .FlexImg {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    width: 100%;
 }
 
 .TailleImg1 {
-    width: 35%;
-    height: 80%;
-    padding-right: 20px;
+    width: 80%;
+    height: 40%;
 }
 
 .TailleImg2 {
-    width: 35%;
-    height: auto;
-    padding-bottom: 20px;
-
+    width: 80%;
+    height: 50%;
 }
 
 .TailleImg3 {
-    width: 35%;
-    height: 80%;
-    padding-right: 20px;
+    width: 80%;
 }
+
+.TailleImg4 {
+    width: 80%;
+    height: 30%;
+}
+
 
 .FlexRow2 {
     display: flex;
@@ -597,6 +599,10 @@ h1,
     width: 100%;
 }
 
+.FlexRow3 {
+    display: flex;
+    flex-direction: row;
+}
 
 
 
