@@ -410,22 +410,44 @@ template {
 
 /*Section1-->*/
 
+
 .logo {
-
     margin-top: 10px;
-
+    z-index: 3;
+    color: white;
 }
 
+
 .margeHeader {
-    padding-top: 10px;
+
+    color: white;
 }
 
 .backgroundImg {
-    background-image: url(https://websitedemos.net/outdoor-adventure-02/wp-content/uploads/sites/351/2018/11/hero-bg.jpg);
-    background-color: rgba(0, 0, 0, 0.5);
-    opacity: 1;
-    height: 100%;
+    position: relative;
+    background-image: url('https://websitedemos.net/outdoor-adventure-02/wp-content/uploads/sites/351/2018/11/hero-bg.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
 
 
 .FlexHeader {
@@ -437,47 +459,60 @@ template {
 .FlexHeader2 {
     display: flex;
     justify-content: space-around;
-    padding-top: 10px;
+    align-items: flex-start;
+    margin-top: -180px;
+    z-index: 2;
+    gap: 500px
 }
 
 .marginNav {
     padding-right: 30px;
+    color: white;
+    z-index: 3;
 }
 
 .BoutonAction {
-    border-color: #fb2056;
+    border: none;
     background-color: #fb2056;
     border-radius: 30px;
     color: white;
-    padding: 0px 40px 0px 40px;
+    padding: 10px 40px;
+    z-index: 2;
+    cursor: pointer;
+}
+
+.BoutonAction1 {
+    border: none;
+    background-color: #fb2056;
+    border-radius: 30px;
+    color: white;
+    padding: 10px 40px;
+    margin-top: -10px;
+    z-index: 2;
+    cursor: pointer;
 }
 
 .BoutonAction:hover {
-    border-color: #fb2056;
-    background-color: #fb2056;
-    border-radius: 30px;
-    color: white;
-    padding: 0px 40px 0px 40px;
     opacity: 0.9;
-
 }
 
 h1,
 .entry-content h1 {
-    font-size: 64px;
     font-size: 4rem;
     font-family: 'Montserrat', sans-serif;
     line-height: 1.4em;
+    z-index: 2;
 }
-
 
 .FlexCentre {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 150px;
-
+    z-index: 2;
+    position: relative;
 }
+
 
 /*Section2*/
 
