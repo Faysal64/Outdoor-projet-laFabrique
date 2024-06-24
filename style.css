@@ -416,6 +416,10 @@ template {
 
 }
 
+.margeHeader {
+    padding-top: 10px;
+}
+
 .backgroundImg {
     background-image: url(https://websitedemos.net/outdoor-adventure-02/wp-content/uploads/sites/351/2018/11/hero-bg.jpg);
     background-color: rgba(0, 0, 0, 0.5);
@@ -427,12 +431,13 @@ template {
 .FlexHeader {
     display: flex;
     flex-direction: row;
+
 }
 
 .FlexHeader2 {
     display: flex;
     justify-content: space-around;
-
+    padding-top: 10px;
 }
 
 .marginNav {
@@ -560,6 +565,14 @@ h1,
     padding: 100px 0px 100px 0px;
 }
 
+
+.FlexConteneur {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
 /*Section4*/
 
 .TailleConteneur {
@@ -579,7 +592,7 @@ h1,
 
 .TailleImg2 {
     width: 80%;
-    height: 50%;
+    height: 60%;
 }
 
 .TailleImg3 {
@@ -588,7 +601,11 @@ h1,
 
 .TailleImg4 {
     width: 80%;
-    height: 30%;
+    height: 33%;
+}
+
+.marginBottom {
+    margin-bottom: 20px;
 }
 
 
