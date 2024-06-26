@@ -527,6 +527,10 @@ h1,
 
 }
 
+.margeTop {
+    padding-top: 20px;
+}
+
 
 /*Section2*/
 
@@ -587,6 +591,11 @@ h1,
     padding: 20px 40px 20px 40px;
 }
 
+
+.FlexConteneur {
+    display: flex;
+    justify-content: center;
+}
 
 
 /*Section3*/
@@ -678,7 +687,7 @@ h1,
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin: 80px 0;
+    margin: 120px 0;
     width: 100%;
 }
 
@@ -691,7 +700,7 @@ h1,
 }
 
 
-.borderBottom3 {
+.borderBottom4 {
     border-bottom: 3px solid #fb2056;
     width: 50px;
 }
