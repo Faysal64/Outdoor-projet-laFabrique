@@ -408,28 +408,67 @@ template {
     display: none;
 }
 
+body {
+    font-family: 'DM Sans', sans-serif;
+
+}
+
 /*Section1*/
 
-.backgroundImg {
-
-    background-image: url(images/about-bg-5.jpeg);
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-    height: 80vh;
+a {
+    text-decoration: none;
     color: white;
+}
+
+.backgroundImg {
+    position: relative;
+    background-image: url(images/about-bg-5.jpeg);
+
+    background-size: cover;
+    /* Couvre toute la section */
+    background-repeat: no-repeat;
+    /* Évite les répétitions */
+
+    /* Fixe l'image lors du scroll */
+    background-position: center;
+    /* Centre l'image */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Couleur de fond par défaut */
+    height: 60vh;
+    color: white;
+    margin: 0;
+    /* Assurez-vous qu'il n'y a pas de marge */
+    padding: 0;
+
+}
+
+
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 1;
 }
 
 .FlexNav {
     display: flex;
     flex-direction: row;
     gap: 20px;
+    position: relative;
+    z-index: 3;
+    padding-top: 10px;
 }
 
 .FlexHeader {
     display: flex;
     justify-content: space-around;
-    padding-top: 10px;
+    padding-top: 15px;
+    position: relative;
+    z-index: 3;
 }
 
 
@@ -437,11 +476,22 @@ template {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 300px;
+    padding-top: 150px;
     font-size: 64px;
-
+    position: relative;
+    z-index: 3;
 }
 
+.BoutonAction1 {
+    border: none;
+    background-color: #fb2056;
+    border-radius: 30px;
+    color: white;
+    padding: 10px 40px;
+    margin-top: -10px;
+    z-index: 2;
+    cursor: pointer;
+}
 
 /*section2/
 
