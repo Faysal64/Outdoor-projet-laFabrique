@@ -417,7 +417,7 @@ body {
 
 
 .logo {
-    margin-top: 10px;
+    margin-top: 15px;
     z-index: 3;
     color: white;
 }
@@ -439,13 +439,14 @@ a {
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
-    height: 100vh;
     color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
+    height: 100vh;
+
 }
 
 .overlay {
@@ -463,16 +464,16 @@ a {
 .FlexHeader {
     display: flex;
     flex-direction: row;
-
+    margin-top: 23px;
 }
 
 .FlexHeader2 {
     display: flex;
     justify-content: space-around;
     align-items: flex-start;
-    margin-top: -180px;
     z-index: 2;
-    gap: 500px
+    gap: 500px;
+    margin-top: -300px;
 }
 
 .marginNav {
@@ -518,9 +519,12 @@ h1,
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 150px;
+
     z-index: 2;
     position: relative;
+
+
+
 }
 
 
@@ -539,6 +543,10 @@ h1,
     width: 88%;
 }
 
+.FlexCentre4 {
+    width: 80%;
+}
+
 
 .borderBottom {
     display: flex;
@@ -552,7 +560,8 @@ h1,
 .FlexRow {
     display: flex;
     flex-direction: row;
-    gap: 60px;
+    justify-content: center;
+
 }
 
 .TailleImg {
@@ -566,6 +575,7 @@ h1,
 
     border-radius: 4px 4px 4px 4px;
     box-shadow: 10px 10px 0 1px rgb(0 0 0 / 7%);
+    width: 88%;
 }
 
 
@@ -583,6 +593,17 @@ h1,
 
 .backgroundImg2 {
     background-image: url(images/section-bg-img.jpeg);
+    position: relative;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 60vh;
 
 }
 
@@ -593,6 +614,7 @@ h1,
     color: white;
     padding: 20px 40px 20px 40px;
     width: 190px;
+    z-index: 2;
 }
 
 .borderBottom2 {
@@ -608,6 +630,7 @@ h1,
     flex-direction: column;
     justify-content: space-between;
     padding: 100px 0px 100px 0px;
+    z-index: 2;
 }
 
 
@@ -615,7 +638,7 @@ h1,
     width: 100%;
     display: flex;
     justify-content: center;
-
+    z-index: 2;
 }
 
 /*Section4*/
