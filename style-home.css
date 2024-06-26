@@ -599,12 +599,36 @@ h1,
     background-position: center;
     color: white;
     display: flex;
-    flex-direction: column;
     align-items: center;
-    justify-content: center;
-    text-align: center;
     height: 60vh;
+}
 
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 1;
+}
+
+.FlexContainer {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    z-index: 2;
+}
+
+.FlexBox {
+    padding: 20px;
+    z-index: 2;
+    margin-right: 160px;
+    width: 45%;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
 }
 
 .BoutonAction3 {
@@ -612,39 +636,24 @@ h1,
     background-color: #fb2056;
     border-radius: 30px;
     color: white;
-    padding: 20px 40px 20px 40px;
+    padding: 20px 40px;
     width: 190px;
-    z-index: 2;
 }
 
 .borderBottom2 {
-
     border-bottom: 3px solid #fb2056;
     width: 70px;
-
-
-}
-
-.FlexBox {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 100px 0px 100px 0px;
-    z-index: 2;
 }
 
 
-.FlexConteneur {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    z-index: 2;
-}
-
-/*Section4*/
+/* Section4 */
 
 .TailleConteneur {
-    width: 40%;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-right: 5%;
 }
 
 .FlexImg {
@@ -653,41 +662,40 @@ h1,
     width: 100%;
 }
 
-.TailleImg1 {
-    width: 80%;
-    height: 40%;
-}
-
-.TailleImg2 {
-    width: 80%;
-    height: 60%;
-}
-
-.TailleImg3 {
-    width: 80%;
-}
-
+.TailleImg1,
+.TailleImg2,
+.TailleImg3,
 .TailleImg4 {
-    width: 80%;
-    height: 33%;
-}
-
-.marginBottom {
+    width: 100%;
+    height: auto;
+    /* Ajustement de la hauteur en fonction de la largeur */
     margin-bottom: 20px;
+    /* Marge inférieure pour espacer les images verticalement */
+    border-radius: 5px 5px 5px 5px;
 }
-
 
 .FlexRow2 {
     display: flex;
     flex-direction: row;
-    margin: 80px 0px 80px 0px;
+    justify-content: center;
+    margin: 80px 0;
     width: 100%;
 }
 
 .FlexRow3 {
     display: flex;
     flex-direction: row;
+    gap: 20px;
+    width: 40%;
+    /* Espace entre les colonnes */
 }
+
+
+.borderBottom3 {
+    border-bottom: 3px solid #fb2056;
+    width: 50px;
+}
+
 
 
 
