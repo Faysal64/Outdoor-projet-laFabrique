@@ -494,7 +494,30 @@ a {
 }
 
 
-/*section2/
+/*section2*/
+
+.FlexCentre1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 120px 0px 100px 0px;
+    gap: 20px;
+}
+
+.Centrer {
+    text-align: center;
+    /* Centre le texte à l'intérieur du paragraphe */
+}
+
+.borderBottom {
+    display: flex;
+    justify-content: center;
+    border-bottom: 3px solid #fb2056;
+    width: 70px;
+    margin: 0 auto 30px auto;
+}
 
 
 
