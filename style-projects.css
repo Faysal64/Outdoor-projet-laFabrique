@@ -494,10 +494,27 @@ a {
 }
 
 
-/*section2/
+/*section2*/
 
 
+.borderBottom2 {
+    border-bottom: 3px solid #fb2056;
+    width: 70px;
 
+}
+
+.FlexRow {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.MargeSec {
+    margin: 150px 0px 60px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
 
 
 
