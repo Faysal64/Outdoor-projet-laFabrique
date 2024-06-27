@@ -523,6 +523,7 @@ a {
     border-bottom: 3px solid #fb2056;
     width: 70px;
     margin: 0 auto 30px auto;
+    margin-top: 10px;
 }
 
 .ImgSec2 {
@@ -581,7 +582,7 @@ a {
     display: flex;
     justify-content: center;
     margin: 100px 0px 130px 0px;
-    gap: 100px;
+
 }
 
 .FlexCentre2 {
@@ -591,6 +592,14 @@ a {
     gap: 100px;
 }
 
+.FlexCentre3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 100px 0px 130px 0px;
+
+}
 
 
 
