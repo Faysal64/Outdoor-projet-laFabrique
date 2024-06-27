@@ -557,7 +557,7 @@ h1,
 }
 
 .FlexCentre4 {
-    width: 88%;
+    width: 100%;
     padding-top: 50px;
     display: flex;
     flex-direction: column;
@@ -573,7 +573,7 @@ h1,
     border-bottom: 3px solid #fb2056;
     width: 70px;
     margin-bottom: 30px;
-    margin-left: 46%;
+    margin: 0 auto 30px auto;
 }
 
 .FlexRow {
@@ -582,6 +582,7 @@ h1,
     justify-content: center;
     width: 60%;
     margin-bottom: 150px;
+    gap: 52px;
 }
 
 .TailleImg {
@@ -595,7 +596,7 @@ h1,
 
     border-radius: 4px 4px 4px 4px;
     box-shadow: 10px 10px 0 1px rgb(0 0 0 / 7%);
-    width: 88%;
+    width: 100%;
 }
 
 
