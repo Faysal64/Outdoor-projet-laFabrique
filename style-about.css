@@ -493,15 +493,59 @@ a {
     cursor: pointer;
 }
 
-/*section2/
+/*section2*/
 
+.borderBottom4 {
+    border-bottom: 3px solid #fb2056;
+    width: 50px;
+}
 
+.borderBottom5 {
+    border-bottom: 3px solid #fb2056;
+    width: 15px;
+    height: 100%;
+    text-align: center;
+    margin-right: 15px;
+    margin-top: -10px;
+}
 
+.FlexRow1 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
 
+.TexteMission {
+    width: 30%;
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+}
 
+.imgAbout {
+    border-radius: 4px 4px 4px 4px;
+    box-shadow: 10px 10px 0 1px rgb(0 0 0 / 7%);
+    width: 100%;
 
+}
 
+.imgAbout1 {
+    width: 30%;
+}
 
+.FlexCentre1 {
+    display: flex;
+    justify-content: center;
+    margin: 100px 0px 130px 0px;
+    gap: 100px;
+}
+
+.FlexCentre2 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+    gap: 100px;
+}
 
 
 /*Footer*/
