@@ -499,8 +499,8 @@ a {
 
 .borderBottom2 {
     border-bottom: 3px solid #fb2056;
-    width: 100%;
-    /* Ajuster la largeur à 100% pour occuper tout l'espace disponible */
+    width: 70px;
+    margin-left: 12px;
 }
 
 .FlexRow {
@@ -515,15 +515,75 @@ a {
 }
 
 .MargeSec {
-    margin: 150px 0px 60px 0px;
+    margin: 120px 0px 0px 0px;
     display: flex;
     flex-direction: column;
     gap: 15px;
 }
 
 
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
 
+
+/*carrousel*/
+
+.carousel {
+    width: 80%;
+    margin: 100px auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    gap: 30px;
+    /* Espace de 30px entre les images */
+}
+
+.slide {
+    flex: 0 0 calc((100% / 3) - 30px);
+    /* Chaque image occupe un tiers de la largeur du conteneur moins le gap */
+    box-sizing: border-box;
+    /* Inclut le padding et le border dans la largeur totale */
+}
+
+.slide img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: 20px;
+    /* Espacement entre les images et les points */
+}
+
+.nav-dot {
+    cursor: pointer;
+    height: 8px;
+    width: 8px;
+    margin: 0 5px;
+    background-color: rgba(255, 200, 200, 0.5);
+    /* Rouge clair transparent par défaut */
+    border: none;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.nav-dot.active {
+    background-color: #ff0000;
+    /* Rouge plein pour le point actif */
+}
 
 
 
