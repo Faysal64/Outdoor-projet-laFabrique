@@ -415,10 +415,32 @@ body {
 
 /*Section1-->*/
 
+/* Section1 --> */
+
+/* Section1 --> */
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    padding: 10px 0;
+    /* Ajout de padding pour espace autour du contenu */
+    background: transparent;
+    /* Fond transparent */
+}
 
 .logo {
-    margin-top: 15px;
-    z-index: 3;
+    margin: 0 15px;
     color: white;
 }
 
@@ -427,9 +449,7 @@ a {
     color: inherit;
 }
 
-
 .margeHeader {
-
     color: white;
 }
 
@@ -446,7 +466,6 @@ a {
     justify-content: center;
     text-align: center;
     height: 100vh;
-
 }
 
 .overlay {
@@ -459,8 +478,6 @@ a {
     z-index: 1;
 }
 
-
-
 .FlexHeader {
     display: flex;
     flex-direction: row;
@@ -469,17 +486,16 @@ a {
 
 .FlexHeader2 {
     display: flex;
+    align-items: center;
     justify-content: space-around;
-    align-items: flex-start;
-    z-index: 2;
-    gap: 500px;
-    margin-top: -300px;
+    width: 100%;
+    padding: 0 20px;
+    gap: 170px;
 }
 
 .marginNav {
     padding-right: 30px;
     color: white;
-    z-index: 3;
 }
 
 .BoutonAction {
@@ -488,7 +504,6 @@ a {
     border-radius: 30px;
     color: white;
     padding: 10px 40px;
-    z-index: 2;
     cursor: pointer;
 }
 
@@ -499,7 +514,6 @@ a {
     color: white;
     padding: 10px 40px;
     margin-top: -10px;
-    z-index: 2;
     cursor: pointer;
 }
 
@@ -512,19 +526,14 @@ h1,
     font-size: 4rem;
     font-family: 'Montserrat', sans-serif;
     line-height: 1.4em;
-    z-index: 2;
 }
 
 .FlexCentre {
     display: flex;
     flex-direction: column;
     align-items: center;
-
     z-index: 2;
     position: relative;
-
-
-
 }
 
 .margeTop {
