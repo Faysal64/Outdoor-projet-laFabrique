@@ -419,6 +419,8 @@ body {
 
 /* Section1 --> */
 
+/* Section1 --> */
+
 html,
 body {
     margin: 0;
@@ -429,7 +431,6 @@ body {
 
 header {
     width: 100%;
-    position: fixed;
     top: 0;
     left: 0;
     z-index: 3;
@@ -437,6 +438,8 @@ header {
     /* Ajout de padding pour espace autour du contenu */
     background: transparent;
     /* Fond transparent */
+    position: absolute;
+    /* Ajouté pour garantir qu'il est en haut */
 }
 
 .logo {
@@ -488,9 +491,9 @@ a {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    gap: 200px;
     width: 100%;
     padding: 0 20px;
-    gap: 170px;
 }
 
 .marginNav {
@@ -539,6 +542,7 @@ h1,
 .margeTop {
     padding-top: 20px;
 }
+
 
 
 /*Section2*/
