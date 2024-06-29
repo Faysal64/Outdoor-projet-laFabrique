@@ -515,17 +515,19 @@ a {
 }
 
 .MargeSec {
-    margin: 120px 0px 0px 0px;
+    margin: 100px 0px 0px 10%;
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 10px;
 }
 
+.MargeAventure {
+    margin-bottom: 10px;
+}
 
 .flex-container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
 }
 
 
@@ -534,7 +536,7 @@ a {
 
 .carousel {
     width: 80%;
-    margin: 100px auto;
+    margin: 40px auto;
     overflow: hidden;
     position: relative;
 }
