@@ -98,7 +98,8 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 160px;
+    gap: 50px;
+    ;
     padding: 160px 0;
 }
 
@@ -115,7 +116,7 @@ body {
 
 .FlexColumn input,
 .FlexColumn textarea {
-    width: 300px;
+    width: 450px;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
