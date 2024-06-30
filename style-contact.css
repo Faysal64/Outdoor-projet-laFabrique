@@ -77,6 +77,18 @@ body {
     cursor: pointer;
 }
 
+.BoutonAction2 {
+    border: none;
+    background-color: #fb2056;
+    border-radius: 30px;
+    color: white;
+    padding: 10px 40px;
+    cursor: pointer;
+    text-align: center;
+    width: 70%;
+}
+
+
 .BoutonAction1 p {
     margin: 0;
 }
@@ -108,6 +120,7 @@ body {
     border: 1px solid #ccc;
     border-radius: 5px;
     transition: background-color 0.3s, border 0.3s;
+    background-color: #f5f5f5;
 }
 
 .FlexColumn button {
@@ -152,7 +165,7 @@ body {
 }
 
 .Espace2 {
-    margin-bottom: 35px;
+    margin-bottom: 50px;
 }
 
 /* Footer Styles */
