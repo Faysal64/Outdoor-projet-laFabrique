@@ -608,3 +608,94 @@ a {
 
     padding-bottom: 30px;
 }
+
+
+
+/*Media*/
+
+.colorkit {
+    color: white;
+    background-color: #fb2056;
+    padding: 10px;
+}
+
+.FlexHeader3 {
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 30px;
+}
+
+
+@media screen and (max-width: 922px) {
+    .FlexHeader {
+        display: none;
+        flex-direction: row;
+        margin-top: 23px;
+    }
+
+    .FlexHeader2 {
+        display: none;
+        align-items: center;
+        justify-content: space-around;
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    .logo2 {
+        display: flex;
+        margin: 20px 0px 20px 20px;
+    }
+
+
+    .FlexHeader3 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-right: 30px;
+        padding: 10px;
+    }
+
+    .backgroundImg {
+        position: relative;
+        background-image: url(images/project-background.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-color: rgba(0, 0, 0, 0.4);
+        height: 30vh;
+        color: white;
+        margin: 0;
+        padding: 0;
+    }
+
+    .FlexCentre {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 80px;
+        font-size: 64px;
+        position: relative;
+        z-index: 3;
+    }
+}
+
+
+
+
+@media (max-width: 768px) {
+    .slides {
+        flex-wrap: nowrap;
+    }
+
+    .slide {
+        min-width: 100%;
+    }
+
+    .FlexWrap {
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: center;
+    }
+}
