@@ -100,7 +100,7 @@ body {
     justify-content: center;
     gap: 50px;
     ;
-    padding: 160px 0;
+    padding: 80px 0;
 }
 
 .FlexColumn {
@@ -271,7 +271,32 @@ body {
         display: flex;
         justify-content: center;
         align-items: center;
-        padding-top: 80px;
+        padding-top: 60px;
+        font-size: 64px;
+        position: relative;
+        z-index: 3;
+    }
+
+}
+
+
+
+@media (max-width: 1024px) {
+    .backgroundImg {
+        position: relative;
+        background-image: url(images/about-bg-2.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 35vh;
+        color: white;
+    }
+
+    .FlexCentre {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 30px;
         font-size: 64px;
         position: relative;
         z-index: 3;
@@ -287,7 +312,17 @@ body {
         justify-content: center;
         margin-left: 5%;
         gap: 50px;
-        padding: 160px 0;
+        padding: 100px 0;
+    }
+
+    .FlexCentre {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 80px;
+        font-size: 64px;
+        position: relative;
+        z-index: 3;
     }
 
     .FlexColumn input,
