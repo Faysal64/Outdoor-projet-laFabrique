@@ -105,7 +105,7 @@ main {
  */
 h1 {
     font-size: 2em;
-    margin: 0.67em 0;
+    margin: 20px 0px 40px 0px;
 }
 
 /* Grouping content
@@ -442,9 +442,10 @@ header {
     /* Ajouté pour garantir qu'il est en haut */
 }
 
-.logo {
-    margin: 0 15px;
-    color: white;
+.logo img {
+    max-width: 150px;
+    /* Ajustez cette valeur selon vos besoins */
+    height: auto;
 }
 
 a {
@@ -468,7 +469,7 @@ a {
     align-items: center;
     justify-content: center;
     text-align: center;
-    height: 100vh;
+    height: 85vh;
 }
 
 .overlay {
@@ -491,7 +492,7 @@ a {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    gap: 200px;
+
     width: 100%;
     padding: 0 20px;
 }
@@ -543,6 +544,10 @@ h1,
     padding-top: 20px;
 }
 
+
+.logo2 {
+    display: none;
+}
 
 
 /*Section2*/
@@ -642,13 +647,13 @@ h1,
     height: 60vh;
 }
 
-.overlay {
+.overlay2 {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.5);
     z-index: 1;
 }
 
@@ -756,4 +761,153 @@ h1,
 .MarginFooter {
 
     padding-bottom: 30px;
+}
+
+
+/*Media*/
+
+.colorkit {
+    color: white;
+    background-color: #fb2056;
+    padding: 10px;
+}
+
+.FlexHeader3 {
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 30px;
+}
+
+
+
+
+@media screen and (max-width: 1024px) {
+    .backgroundImg {
+        position: relative;
+        background-image: url('images/hero-bg.jpeg');
+        background-size: contain;
+        /* Couvre entièrement l'élément avec l'image */
+        background-attachment: fixed;
+        background-position: top center;
+        /* Centre l'image horizontalement et verticalement */
+        height: 45vh;
+        color: white;
+
+    }
+}
+
+@media screen and (max-width: 922px) {
+    .FlexHeader {
+        display: none;
+        flex-direction: row;
+        margin-top: 23px;
+    }
+
+    .menu-btn {
+        display: block;
+        /* Afficher le bouton de menu */
+    }
+
+    .menu-btn.active+.nav-bar {
+        display: flex;
+        /* Afficher la barre de navigation lorsque le bouton est cliqué */
+    }
+
+    .FlexHeader2 {
+        display: none;
+        align-items: center;
+        justify-content: space-around;
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    .logo2 {
+        display: flex;
+        margin: 20px 0px 20px 20px;
+    }
+
+    .backgroundImg {
+        position: relative;
+        background-image: url(images/hero-bg.jpeg);
+        background-size: cover;
+        background-size: contain;
+        background-attachment: fixed;
+        background-position: top center;
+        height: 55vh;
+        color: white;
+    }
+
+    .FlexHeader3 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-right: 30px;
+        padding: 10px;
+    }
+
+
+}
+
+
+@media screen and (max-width: 768px) {
+    .FlexRow {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 80%;
+        margin-bottom: 150px;
+        gap: 52px;
+    }
+
+    .FlexContainer {
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        z-index: 2;
+    }
+
+    .FlexBox {
+        padding: 20px;
+        z-index: 2;
+        margin-right: 160px;
+        width: 100%;
+        gap: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .FlexRow2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 80px 0;
+        width: 100%;
+    }
+
+    .TailleConteneur {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        margin-left: 5%;
+    }
+
+    .FlexRow3 {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+        gap: 20px;
+        width: 90%;
+        margin: 5%;
+    }
+
+    .FlexWrap {
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: center;
+    }
 }
