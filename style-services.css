@@ -698,3 +698,38 @@ a {
         z-index: 3;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .FlexRow {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        max-width: 1200px;
+        gap: 60px;
+        text-align: center;
+    }
+
+    .TexteMission {
+        width: 90%;
+        gap: 15px;
+        display: flex;
+        flex-direction: column;
+        margin-left: 5%;
+    }
+
+    .FlexCentre2 {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 100px;
+        gap: 100px;
+    }
+
+    .borderBottom5 {
+        border-bottom: 3px solid #fb2056;
+        width: 15px;
+        height: 100%;
+        text-align: center;
+        margin-right: 15px;
+        margin-top: 10px;
+    }
+}
