@@ -704,7 +704,7 @@ a {
 
     .backgroundImg {
         position: relative;
-        background-image: url(images/section-bg-img.jpeg);
+        background-image: url(images/services-bg.jpeg);
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
@@ -719,8 +719,8 @@ a {
         display: flex;
         justify-content: center;
         align-items: center;
-        padding-top: 80px;
-        font-size: 64px;
+        padding-top: 100px;
+        font-size: 48px;
         position: relative;
         z-index: 3;
     }
