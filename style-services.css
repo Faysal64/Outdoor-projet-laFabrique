@@ -646,6 +646,33 @@ a {
 
 
 
+@media screen and (max-width: 1024px) {
+    .FlexCentre {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 50px;
+        font-size: 64px;
+        position: relative;
+        z-index: 3;
+    }
+
+    .backgroundImg {
+        position: relative;
+        background-image: url(images/services-bg.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-color: rgba(0, 0, 0, 0.4);
+        height: 35vh;
+        color: white;
+        margin: 0;
+        padding: 0;
+    }
+}
+
+
+
 @media screen and (max-width: 922px) {
     .FlexHeader {
         display: none;
@@ -677,7 +704,7 @@ a {
 
     .backgroundImg {
         position: relative;
-        background-image: url(images/about-bg-5.jpeg);
+        background-image: url(images/section-bg-img.jpeg);
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
