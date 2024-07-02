@@ -491,6 +491,8 @@ a {
     margin-top: -10px;
     z-index: 2;
     cursor: pointer;
+    font-weight: bold;
+    font-size: 14px;
 }
 
 
@@ -607,6 +609,13 @@ a {
 .MarginFooter {
 
     padding-bottom: 30px;
+}
+
+.coloredSection {
+    background-color: #f2f2f2;
+    /* Couleur de fond de la section */
+    padding: 20px 0;
+    /* Ajoute un espacement autour du contenu */
 }
 
 

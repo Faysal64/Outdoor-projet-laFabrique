@@ -491,6 +491,8 @@ a {
     margin-top: -10px;
     z-index: 2;
     cursor: pointer;
+    font-weight: bold;
+    font-size: 14px;
 }
 
 
@@ -506,9 +508,9 @@ a {
 .FlexRow {
     display: flex;
     justify-content: center;
-    width: 60%;
+    width: 80%;
+    min-width: 550px;
     max-width: 1200px;
-    /* Adjust the max-width to your preference */
     gap: 60px;
     text-align: center;
 }
@@ -601,6 +603,12 @@ a {
 
 }
 
+.coloredSection {
+    background-color: #f2f2f2;
+    /* Couleur de fond de la section */
+    padding: 20px 0;
+    /* Ajoute un espacement autour du contenu */
+}
 
 
 
@@ -765,5 +773,15 @@ a {
         flex-wrap: wrap;
         text-align: center;
         justify-content: center;
+    }
+
+    .FlexRow {
+        display: flex;
+        justify-content: center;
+        width: 80%;
+        min-width: 0px;
+
+        gap: 60px;
+        text-align: center;
     }
 }

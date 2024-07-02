@@ -518,7 +518,10 @@ a {
     color: white;
     padding: 10px 40px;
     margin-top: -10px;
+    z-index: 2;
     cursor: pointer;
+    font-weight: bold;
+    font-size: 14px;
 }
 
 .BoutonAction:hover {
@@ -615,7 +618,7 @@ h1,
     display: flex;
     flex-direction: row;
     justify-content: center;
-    width: 60%;
+    width: 90%;
     margin-bottom: 150px;
     gap: 52px;
 }
@@ -698,7 +701,7 @@ h1,
 .FlexBox {
     padding: 20px;
     z-index: 2;
-    margin-right: 160px;
+    margin-right: 10px;
     width: 45%;
     gap: 20px;
     display: flex;
@@ -850,6 +853,18 @@ h1,
         align-items: center;
         justify-content: center;
         width: 100%;
+    }
+
+    .backgroundImg2 {
+        background-image: url(images/section-bg-img.jpeg);
+        position: relative;
+        background-size: cover;
+        background-attachment: scroll;
+        background-position: center;
+        color: white;
+        display: flex;
+        align-items: center;
+        height: 60vh;
     }
 
 
@@ -1009,6 +1024,23 @@ h1,
         width: 100%;
         text-align: center;
         width: 80%;
+    }
+
+    .FlexContainer {
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        z-index: 2;
+    }
+
+    .FlexBox {
+        padding: 20px;
+        z-index: 2;
+        width: 100%;
+        gap: 20px;
+        display: flex;
+        flex-direction: column;
     }
 
 }
