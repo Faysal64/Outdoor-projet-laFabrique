@@ -501,7 +501,7 @@ a {
 
 .borderBottom2 {
     border-bottom: 3px solid #fb2056;
-    width: 70px;
+    width: 7%;
     margin-left: 12px;
 }
 
@@ -668,6 +668,12 @@ a {
         flex: 1 0 47%;
         /* 2 images */
     }
+
+    .borderBottom2 {
+        border-bottom: 3px solid #fb2056;
+        width: 10%;
+        margin-left: 12px;
+    }
 }
 
 
@@ -723,6 +729,12 @@ a {
         position: relative;
         z-index: 3;
     }
+
+    .borderBottom2 {
+        border-bottom: 3px solid #fb2056;
+        width: 10%;
+        margin-left: 12px;
+    }
 }
 
 
@@ -742,5 +754,11 @@ a {
         flex-wrap: wrap;
         text-align: center;
         justify-content: center;
+    }
+
+    .borderBottom2 {
+        border-bottom: 3px solid #fb2056;
+        width: 35%;
+        margin-left: 12px;
     }
 }

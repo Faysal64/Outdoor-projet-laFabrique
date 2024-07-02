@@ -556,6 +556,10 @@ a {
     /* Ajoute un espacement autour du contenu */
 }
 
+.TaillePolice {
+    font-size: 35px;
+}
+
 
 /*Footer*/
 
@@ -736,5 +740,11 @@ a {
         box-shadow: 10px 10px 0 1px rgb(0 0 0 / 7%);
         width: 100%;
         min-width: 0px;
+    }
+
+
+    .borderBottom4 {
+        border-bottom: 3px solid #fb2056;
+        width: 20%;
     }
 }

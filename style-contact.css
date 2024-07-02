@@ -89,11 +89,17 @@ body {
     text-align: center;
     width: 45%;
     min-width: 200px;
+    font-weight: bold;
+    font-size: 14px;
 }
 
 
 .BoutonAction1 p {
     margin: 0;
+}
+
+.StylePolice {
+    font-size: 35px;
 }
 
 /* Form Styles */
