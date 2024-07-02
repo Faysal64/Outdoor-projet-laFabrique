@@ -785,27 +785,27 @@ h1,
 @media screen and (max-width: 1024px) {
     .backgroundImg {
         position: relative;
-        background-image: url('images/hero-bg.jpeg');
-        background-size: contain;
-        /* Couvre entièrement l'élément avec l'image */
-        background-attachment: fixed;
+        background-image: url(images/hero-bg.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
         background-position: top center;
-        /* Centre l'image horizontalement et verticalement */
-        height: 45vh;
+        height: 55vh;
         color: white;
-
     }
 }
 
 @media screen and (max-width: 922px) {
     .FlexHeader {
         display: none;
+        /* Hides the FlexHeader */
         flex-direction: row;
         margin-top: 23px;
     }
 
     .FlexHeader2 {
         display: none;
+        /* Hides the FlexHeader2 */
         align-items: center;
         justify-content: space-around;
         width: 100%;
@@ -819,12 +819,17 @@ h1,
 
     .backgroundImg {
         position: relative;
-        background-image: url(images/hero-bg.jpeg);
+        background-image: url('images/hero-bg.jpeg');
         background-size: cover;
-        background-size: contain;
-        background-attachment: fixed;
+        /* Ajuste la taille pour couvrir entièrement l'élément sans déformation */
+        background-repeat: no-repeat;
+        /* Empêche la répétition de l'image */
+        background-attachment: scroll;
+        /* Fixe l'image de fond lors du défilement */
         background-position: top center;
+        /* Centre l'image horizontalement et la place en haut */
         height: 55vh;
+        /* Hauteur ajustée selon votre design */
         color: white;
     }
 
@@ -835,10 +840,7 @@ h1,
         margin-right: 30px;
         padding: 10px;
     }
-
-
 }
-
 
 @media screen and (max-width: 768px) {
     .FlexRow {
