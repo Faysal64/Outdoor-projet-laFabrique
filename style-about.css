@@ -747,4 +747,15 @@ a {
         border-bottom: 3px solid #fb2056;
         width: 20%;
     }
+
+
+    .FlexFooter {
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        padding: 40px 0;
+    }
 }

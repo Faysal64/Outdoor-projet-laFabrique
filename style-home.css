@@ -1073,4 +1073,15 @@ h1,
         flex-direction: column;
     }
 
+
+    .FlexFooter {
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        padding: 40px 0;
+    }
+
 }
