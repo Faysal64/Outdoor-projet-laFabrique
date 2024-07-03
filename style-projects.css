@@ -601,14 +601,22 @@ a {
 
 }
 
-
-
 /*Media*/
 
 .colorkit {
     color: white;
     background-color: #fb2056;
-    padding: 10px;
+    padding: 12px 13px 12px 13px;
+    border-radius: 2px;
+}
+
+.colorkit2 {
+    color: white;
+    background-color: #fb2056;
+    padding: 12px 14px 12px 14px;
+
+    border-radius: 2px;
+
 }
 
 .FlexHeader3 {
@@ -617,6 +625,13 @@ a {
     align-items: center;
     margin-right: 30px;
 }
+
+
+
+.navbar2 {
+    display: none;
+}
+
 
 @media screen and (max-width: 1024px) {
     .backgroundImg {
@@ -682,13 +697,7 @@ a {
     }
 
 
-    .FlexHeader3 {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        margin-right: 30px;
-        padding: 10px;
-    }
+
 
     .backgroundImg {
         position: relative;
@@ -717,6 +726,66 @@ a {
         border-bottom: 3px solid #fb2056;
         width: 10%;
         margin-left: 12px;
+    }
+
+    .FlexHeader3 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-right: 30px;
+        flex-wrap: wrap;
+
+    }
+
+    .navbar2 {
+        width: 100%;
+
+        display: none;
+
+        flex-direction: column;
+
+        gap: 10px;
+        z-index: 5;
+        margin-bottom: 10px;
+
+    }
+
+    .hidden {
+        display: none;
+    }
+
+    .show {
+        display: flex;
+    }
+
+    .ouvrir {
+        display: block;
+    }
+
+    .fermer {
+        display: none;
+    }
+
+    .open .ouvrir {
+        display: none;
+    }
+
+    .open .fermer {
+        display: none;
+    }
+
+    .borderBottom0 {
+        border-bottom: solid 1px rgb(196, 191, 191);
+    }
+
+
+    .margeNav {
+        margin-left: 20px;
+        color: #272727;
+    }
+
+    .navbar2 a.active {
+        color: red;
     }
 }
 

@@ -30,10 +30,27 @@ document.addEventListener('DOMContentLoaded', function () {
     let toggle = document.querySelector('.toggle');
     let navBar = document.querySelector('#nav-bar');
     let menuIcon = document.querySelector('.menu-icon');
+    let navLinks = document.querySelectorAll('#nav-bar a');
 
     toggle.addEventListener('click', function () {
         navBar.classList.toggle('show');
         menuIcon.classList.toggle('fa-bars');
         menuIcon.classList.toggle('fa-xmark');
+
+        if (menuIcon.classList.contains('fa-bars')) {
+            menuIcon.classList.remove('colorkit2');
+            menuIcon.classList.add('colorkit');
+        } else {
+            menuIcon.classList.remove('colorkit');
+            menuIcon.classList.add('colorkit2');
+        }
+    });
+
+    navLinks.forEach(link => {
+        link.addEventListener('click', function () {
+            navLinks.forEach(navLink => navLink.classList.remove('active'));
+            this.classList.add('active');
+        });
     });
 });
+

@@ -833,7 +833,17 @@ h1,
 .colorkit {
     color: white;
     background-color: #fb2056;
-    padding: 10px;
+    padding: 12px 13px 12px 13px;
+    border-radius: 2px;
+}
+
+.colorkit2 {
+    color: white;
+    background-color: #fb2056;
+    padding: 12px 14px 12px 14px;
+
+    border-radius: 2px;
+
 }
 
 .FlexHeader3 {
@@ -842,10 +852,6 @@ h1,
     align-items: center;
     margin-right: 30px;
 }
-
-
-
-
 
 
 
@@ -949,18 +955,17 @@ h1,
         justify-content: space-between;
         align-items: center;
         margin-right: 30px;
-        padding: 10px;
         flex-wrap: wrap;
-        /* Pour permettre le retour à la ligne */
+
     }
 
     .navbar2 {
         width: 100%;
-        /* Prend toute la largeur disponible */
+
         display: none;
-        /* Masqué par défaut */
+
         flex-direction: column;
-        /* Affiche les liens en colonne */
+
         gap: 10px;
 
         margin-bottom: 10px;
@@ -999,6 +1004,11 @@ h1,
     .margeNav {
         margin-left: 20px;
     }
+
+    .navbar2 a.active {
+        color: red;
+    }
+
 }
 
 @media screen and (max-width: 768px) {
