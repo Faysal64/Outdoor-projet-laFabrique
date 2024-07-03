@@ -740,6 +740,10 @@ h1,
 }
 
 
+.Titre {
+    font-size: 35px;
+}
+
 /* Section4 */
 
 .TailleConteneur {
@@ -853,6 +857,20 @@ h1,
 
 .navbar2 {
     display: none;
+}
+
+
+
+@media screen and (min-width: 922px) {
+    .FlexBox {
+        padding: 20px;
+        z-index: 2;
+        margin-right: 15%;
+        width: 30%;
+        gap: 20px;
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 @media screen and (max-width: 1024px) {
