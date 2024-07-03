@@ -38,8 +38,8 @@ body {
 
 .FlexHeader {
     display: flex;
-    justify-content: space-between;
-    padding: 15px 50px;
+    justify-content: space-around;
+    padding: 15px 0px;
     align-items: center;
     position: relative;
     z-index: 3;

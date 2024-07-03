@@ -789,6 +789,7 @@ a {
     .margeNav {
         margin-left: 20px;
         color: #272727;
+        font-size: 14px;
     }
 
     .navbar2 a.active {
