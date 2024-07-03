@@ -950,19 +950,55 @@ h1,
         align-items: center;
         margin-right: 30px;
         padding: 10px;
+        flex-wrap: wrap;
+        /* Pour permettre le retour à la ligne */
     }
 
     .navbar2 {
+        width: 100%;
+        /* Prend toute la largeur disponible */
         display: none;
-        flex-wrap: wrap;
+        /* Masqué par défaut */
+        flex-direction: column;
+        /* Affiche les liens en colonne */
+        gap: 10px;
+
+        margin-bottom: 10px;
+
     }
 
-    .navbar2:hover {
+    .hidden {
+        display: none;
+    }
+
+    .show {
         display: flex;
-        flex-wrap: wrap;
+    }
+
+    .ouvrir {
+        display: block;
+    }
+
+    .fermer {
+        display: none;
+    }
+
+    .open .ouvrir {
+        display: none;
+    }
+
+    .open .fermer {
+        display: none;
+    }
+
+    .borderBottom0 {
+        border-bottom: solid 1px rgb(196, 191, 191);
     }
 
 
+    .margeNav {
+        margin-left: 20px;
+    }
 }
 
 @media screen and (max-width: 768px) {

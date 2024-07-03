@@ -26,4 +26,14 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 });
 
+document.addEventListener('DOMContentLoaded', function () {
+    let toggle = document.querySelector('.toggle');
+    let navBar = document.querySelector('#nav-bar');
+    let menuIcon = document.querySelector('.menu-icon');
 
+    toggle.addEventListener('click', function () {
+        navBar.classList.toggle('show');
+        menuIcon.classList.toggle('fa-bars');
+        menuIcon.classList.toggle('fa-xmark');
+    });
+});
