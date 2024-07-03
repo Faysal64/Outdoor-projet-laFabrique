@@ -627,10 +627,12 @@ h1,
 }
 
 .FlexRow {
+
     display: flex;
     flex-direction: row;
     justify-content: center;
-    width: 80%;
+    width: 60%;
+    min-width: 650px;
     margin-bottom: 150px;
     gap: 52px;
 }
