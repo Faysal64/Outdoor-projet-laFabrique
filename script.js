@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', function () {
         });
 
         function updateCarousel() {
-            const slideWidth = slides.children[0].offsetWidth + 30; // Inclut le gap de 30px
+            const slideWidth = slides.children[0].offsetWidth + 30; // gap 30px
             slides.style.transform = `translateX(${-currentIndex * slideWidth}px)`;
 
             navDots.forEach(dot => dot.classList.remove('active'));
