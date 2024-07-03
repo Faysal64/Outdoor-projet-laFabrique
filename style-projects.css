@@ -423,21 +423,13 @@ a {
 .backgroundImg {
     position: relative;
     background-image: url(images/project-background.jpeg);
-
     background-size: cover;
-    /* Couvre toute la section */
     background-repeat: no-repeat;
-    /* Évite les répétitions */
-
-    /* Fixe l'image lors du scroll */
     background-position: center;
-    /* Centre l'image */
     background-color: rgba(0, 0, 0, 0.4);
-    /* Couleur de fond par défaut */
     height: 60vh;
     color: white;
     margin: 0;
-    /* Assurez-vous qu'il n'y a pas de marge */
     padding: 0;
 
 }
@@ -508,12 +500,10 @@ a {
 .FlexRow {
     display: flex;
     align-items: center;
-    /* Aligner verticalement les éléments */
 }
 
 .AlignCenter {
     margin: 0;
-    /* Supprimer les marges par défaut du paragraphe */
 }
 
 .MargeSec {
@@ -548,14 +538,11 @@ a {
     display: flex;
     transition: transform 0.5s ease-in-out;
     gap: 30px;
-    /* Espace de 30px entre les images */
 }
 
 .slide {
     flex: 0 0 calc((100% / 3) - 30px);
-    /* Chaque image occupe un tiers de la largeur du conteneur moins le gap */
     box-sizing: border-box;
-    /* Inclut le padding et le border dans la largeur totale */
 }
 
 .slide img {
@@ -569,7 +556,6 @@ a {
     justify-content: center;
     position: relative;
     margin-top: 20px;
-    /* Espacement entre les images et les points */
 }
 
 .nav-dot {
@@ -578,7 +564,6 @@ a {
     width: 8px;
     margin: 0 5px;
     background-color: rgba(255, 200, 200, 0.5);
-    /* Rouge clair transparent par défaut */
     border: none;
     border-radius: 50%;
     display: inline-block;
@@ -587,7 +572,6 @@ a {
 
 .nav-dot.active {
     background-color: #ff0000;
-    /* Rouge plein pour le point actif */
 }
 
 
@@ -613,9 +597,8 @@ a {
 
 .coloredSection {
     background-color: #f2f2f2;
-    /* Couleur de fond de la section */
     padding: 20px 0;
-    /* Ajoute un espacement autour du contenu */
+
 }
 
 
@@ -666,7 +649,7 @@ a {
 
     .slide {
         flex: 1 0 47%;
-        /* 2 images */
+
     }
 
     .borderBottom2 {

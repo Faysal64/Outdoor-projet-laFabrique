@@ -423,21 +423,13 @@ a {
 .backgroundImg {
     position: relative;
     background-image: url(images/about-bg-5.jpeg);
-
     background-size: cover;
-    /* Couvre toute la section */
     background-repeat: no-repeat;
-    /* Évite les répétitions */
-
-    /* Fixe l'image lors du scroll */
     background-position: center;
-    /* Centre l'image */
     background-color: rgba(0, 0, 0, 0.4);
-    /* Couleur de fond par défaut */
     height: 60vh;
     color: white;
     margin: 0;
-    /* Assurez-vous qu'il n'y a pas de marge */
     padding: 0;
 
 }
@@ -551,9 +543,7 @@ a {
 
 .coloredSection {
     background-color: #f2f2f2;
-    /* Couleur de fond de la section */
     padding: 20px 0;
-    /* Ajoute un espacement autour du contenu */
 }
 
 .TaillePolice {

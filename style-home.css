@@ -435,16 +435,12 @@ header {
     left: 0;
     z-index: 3;
     padding: 10px 0;
-    /* Ajout de padding pour espace autour du contenu */
     background: transparent;
-    /* Fond transparent */
     position: absolute;
-    /* Ajouté pour garantir qu'il est en haut */
 }
 
 .logo img {
     max-width: 150px;
-    /* Ajustez cette valeur selon vos besoins */
     height: auto;
 }
 
@@ -676,9 +672,7 @@ h1,
 
 .coloredSection {
     background-color: #f2f2f2;
-    /* Couleur de fond de la section */
     padding: 20px 0;
-    /* Ajoute un espacement autour du contenu */
 }
 
 
@@ -769,9 +763,7 @@ h1,
 .TailleImg4 {
     width: 100%;
     height: auto;
-    /* Ajustement de la hauteur en fonction de la largeur */
     margin-bottom: 20px;
-    /* Marge inférieure pour espacer les images verticalement */
     border-radius: 5px 5px 5px 5px;
 }
 
@@ -924,14 +916,12 @@ h1,
 @media screen and (max-width: 922px) {
     .FlexHeader {
         display: none;
-        /* Hides the FlexHeader */
         flex-direction: row;
         margin-top: 23px;
     }
 
     .FlexHeader2 {
         display: none;
-        /* Hides the FlexHeader2 */
         align-items: center;
         justify-content: space-around;
         width: 100%;
@@ -947,15 +937,10 @@ h1,
         position: relative;
         background-image: url('images/hero-bg.jpeg');
         background-size: cover;
-        /* Ajuste la taille pour couvrir entièrement l'élément sans déformation */
         background-repeat: no-repeat;
-        /* Empêche la répétition de l'image */
         background-attachment: scroll;
-        /* Fixe l'image de fond lors du défilement */
         background-position: top center;
-        /* Centre l'image horizontalement et la place en haut */
         height: 55vh;
-        /* Hauteur ajustée selon votre design */
         color: white;
     }
 
